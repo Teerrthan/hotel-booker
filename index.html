@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Hotel Booker</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form">
+        <h2>Hotel Booking</h2>
+        <h4>Choose your hotel</h4>
+        <select class="hotel-options" id="hotel">
+            <option value="2000">Hotel Sunrise - $2,000</option>
+            <option value="3000">Holiday Inn - $3,000</option>
+            <option value="4000">Marie Inn - $4,000</option>
+            <option value="5000">Paradise Hotel - $5,000</option>
+        </select>
+        <h4>Check-in Date</h4>
+        <input type="date" class="check-in" id="check-in-date">
+        <h4>Check-out Date</h4>
+        <input type="date" class="check-out" id="check-out-date">
+        <h4>Number of Rooms</h4>
+        <input type="number" id="room-number" value="1" min="1">
+        <br>
+        <button class="submit" onclick="bookHotel()">Book Now</button>
+        <h2 id="result"></h2>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.form {
+    width: 400px;
+    border-radius: 40px;
+    background-color: beige;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.hotel-options {
+    padding: 5px;
+    width: 175px;
+    border-radius: 5px;
+}
+
+.submit {
+    width: 300px;
+    margin: 20px;
+    height: 30px;
+    background-color: rgb(124, 241, 130);
+    border-radius: 10px;
+}
